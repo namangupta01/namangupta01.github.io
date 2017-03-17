@@ -1,0 +1,108 @@
+body{
+	margin: 0 3% 0 3%;
+}
+#head {
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(
+	to bottom, 
+    #505050  0%, 
+    #505050  75%, 
+    white 75%,
+    white 85%,
+    #505050 85%, 
+    #505050 100%
+  );
+}
+img{
+	position: absolute;
+	top: 6vw;
+	height: 20vw;
+	border-radius: 50% ;
+	border: dotted 7px #f4b942;
+}
+#name{
+	position: absolute;
+	left:28vw;
+	top:21vw;
+	background-color: #f4b942;
+	padding: 10 32 10 32;
+	font-size: 5vw;
+	border-radius: 50px;
+}
+#contact{
+	padding: 10px;
+	font-family: Times New Roman;
+	font-size: 2vw;
+	text-align: center;
+	border-bottom: solid 3px gray;
+}
+#social_media {
+	position: absolute;
+	top:1%;
+	right: 4%;
+	font-size: 30px;
+}
+#social_media i{
+	color: white;	
+}
+#social_media i:hover{
+	font-size: 150%;
+}
+/*#main{
+	margin-top: 50px;
+}*/
+/*#main > div{
+	margin-left: 30px;
+	margin-bottom: 50px;
+	display: flex;
+}*/
+
+#first-column{
+	width: 50%;
+	border-right: solid gray ; 
+}
+#section-box{
+	margin: 30px 20px 35px 0px;
+}
+#section-header-first{
+	font-size: 43px;
+	text-align:center;
+	height: 50px;
+	width: 50px;
+	color: #f4b942;
+	border-radius: 51%;
+	background-color: gray;
+	border: dotted #f4b942 ;
+}
+#section-header-second{
+	position: relative;
+	left: 10px;
+	top:2px;
+	font-size: 30;
+}
+#section-header-second::first-letter{
+	font-size: 150%;
+}
+section::first-letter{
+	font-size: 150%;
+}
+section{
+	padding-right: 40px;
+	margin-top: 25px;
+	font-size: 20;
+}
+
+
+/*
+#middle{
+	height: 40px;
+}
+#last{
+	height: 50px;
+	background-color: gray;
+}
+*/
+
+/*https://www.kickresume.com/dashboard/1/0/#*/
