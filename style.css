@@ -1,6 +1,6 @@
 body{
 	margin: 0 3% 0 3%;
-	background: linear-gradient(to bottom,#11384f,#999fa3);
+	background: linear-gradient(to bottom,black,white);
 }
 #page{
 	background: #f2efef;
@@ -79,7 +79,7 @@ img{
 #section-box{
 	margin: 30px 20px 35px 0px;
 }
-#section-header-first{
+#profile{
 	font-size: 43px;
 	text-align:center;
 	height: 50px;
@@ -89,13 +89,54 @@ img{
 	background-color: gray;
 	border: dotted #f4b942 ;
 }
-#section-header-second{
+#profile-header{
 	position: relative;
 	left: 10px;
 	top:2px;
 	font-size: 30;
 }
-#section-header-second::first-letter{
+#profile-header::first-letter{
+	font-size: 150%;
+}
+#work{
+	font-size: 35px;
+	padding-top: 12px;
+	text-align:center;
+	height: 47px;
+	width: 50px;
+	color: #f4b942;
+	border-radius: 51%;
+	background-color: gray;
+	border: dotted #f4b942 ;
+}
+
+#work-header{
+	position: relative;
+	left: 10px;
+	top:2px;
+	font-size: 30;
+}
+#work-header::first-letter{
+	font-size: 150%;
+}
+#education{
+	font-size: 35px;
+	padding-top: 12px;
+	text-align:center;
+	height: 47px;
+	width: 50px;
+	color: #f4b942;
+	border-radius: 51%;
+	background-color: gray;
+	border: dotted #f4b942 ;
+}
+#education-header{
+	position: relative;
+	left: 10px;
+	top:2px;
+	font-size: 30;
+}
+#education-header::first-letter{
 	font-size: 150%;
 }
 section::first-letter{
