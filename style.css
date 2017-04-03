@@ -1,4 +1,7 @@
-body{
+/*IIFF*/
+/*MODULATE REVEAL PATTERN*/
+
+/*body{
 	margin: 0 3% 0 3%;
 	background: linear-gradient(to bottom,black,white);
 }
@@ -61,16 +64,16 @@ img{
 /*#main{
 	margin-top: 50px;
 }*/
-#main{
+/*#main{
 	display: flex;
-}
+}*/
 /*#main{
 	background: #b1bcb8;
 	padding: 10 10 10 10;
 	border-radius: 2%;
 }*/
 
-#first-column{
+/*#first-column{
 	border-right: solid gray ; 
 }
 #section-box{
@@ -151,6 +154,7 @@ section{
 
 #achievements{
 	font-size: 43px;
+	padding-top: 10px;
 	text-align:center;
 	height: 50px;
 	width: 50px;
@@ -169,7 +173,7 @@ section{
 
 #achievements-header::first-letter{
 	font-size: 150%;
-}
+}*/
 
 
 /*
@@ -183,3 +187,31 @@ section{
 */
 
 /*https://www.kickresume.com/dashboard/1/0/#*/
+#main{
+	position: relative;
+	height: 450px;
+	display: flex;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	justify-content:space-between;
+	background-color: white;
+	z-index: -1;
+	align-items:center;
+
+}
+
+#photo-div{
+	height: 200px;
+	width:	200px;
+}
+
+#photo{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#second{
+	background-color: yellow;
+}
