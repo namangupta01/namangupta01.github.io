@@ -1,16 +1,26 @@
+body{
 
+}
 #main{
+	background-color: red;
 	position: relative;
-	height: 450px;
+	height:60%;
 	display: flex;
 	padding-bottom: 10%;
-	padding-left: 10%;
+	padding-left: 15%;
 	padding-right: 10%;
 	justify-content:space-between;
 	background-color: white;
 	z-index: -1;
 	align-items:center;
-
+	overflow: hidden;
+}
+#move{
+	height: 100px;
+	background-color: red;
+	position: relative;
+	left: -90%;
+	overflow: hidden;
 }
 
 #photo-div{
@@ -25,5 +35,9 @@
 }
 
 #second{
+	overflow: hidden;
 	background-color: yellow;
+}
+#third{
+	background-color: red;
 }
